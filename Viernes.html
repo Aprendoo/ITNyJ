@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="http://www.cct.cat/wp-content/uploads/2016/09/dia-del-libro.jpg">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="estilos.css">
+<style>
+  body{
+  background-image: url(reserva-el-modelo-inconsútil-de-la-biblioteca-fondo-de-la-lectura-55842017.jpg);
+  background-size: 80%;
+}
+</style>
+</head>
+
+<body>
+<center>
+    <h1>Presencial los Viernes </h1>
+
+
+<input id="myInput" type="search" placeholder="Buscador">
+<br>
+<br>Busca tu clase aqui<br>
+
+<table>
+  <thead>
+  <tr>
+    <th>Clase</th>
+    <th>Día</th>
+    <th>Horario</th>
+  </tr>
+  </thead>
+  <tbody id="myTable">
+  <tr>
+    <td>Tecnología</td>
+    <td>Lunes</td>
+    <td>7:40 a 8:30</td>
+  </tr>
+  <tr>
+    <td>Español</td>
+    <td>Lunes</td>
+    <td>8:30 a 9:20</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Lunes</td>
+    <td>9:20 a 9:30</td>
+  </tr>
+  <tr>
+    <td>Matematicas</td>
+    <td>Lunes</td>
+    <td>9:30 a 10:20</td>
+  </tr>
+  <tr>
+    <td>Fisica</td>
+    <td>Lunes</td>
+    <td>10:20 a 11:10</td>
+  </tr>
+  <tr>
+    <td>Descanso </td>
+    <td>Lunes</td>
+    <td>11:10 a 11:20</td>
+  </tr>
+  <tr>
+    <td>Formación Civica y Etica</td>
+    <td>Lunes</td>
+    <td>11:20 a 12:10</td>
+  </tr>
+  <tr>
+    <td>Ingles</td>
+    <td>Lunes</td>
+    <td>12:10 a 13:00</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Lunes</td>
+    <td>13:00 a 13:10</td>
+  </tr>
+  <tr>
+    <td>Historia </td>
+    <td>Lunes</td>
+    <td>13:10 a 14:00</td>
+  </tr>
+
+  <tr>
+    <td>Tecnología</td>
+    <td>Martes</td>
+    <td>7:40 a 8:30</td>
+  </tr>
+  <tr>
+    <td>Español</td>
+    <td>Martes</td>
+    <td>8:30 a 9:20</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Martes</td>
+    <td>9:20 a 9:30</td>
+  </tr>
+  <tr>
+    <td>Matematicas</td>
+    <td>Martes</td>
+    <td>9:30 a 10:20</td>
+  </tr>
+  <tr>
+    <td>Fisica</td>
+    <td>Martes</td>
+    <td>10:20 a 11:10</td>
+  </tr>
+  <tr>
+    <td>Descanso </td>
+    <td>Martes</td>
+    <td>11:10 a 11:20</td>
+  </tr>
+  <tr>
+    <td>Formación Civica y Etica</td>
+    <td>Martes</td>
+    <td>11:20 a 12:10</td>
+  </tr>
+  <tr>
+    <td>Ingles</td>
+    <td>Martes</td>
+    <td>12:10 a 13:00</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Martes</td>
+    <td>13:00 a 13:10</td>
+  </tr>
+  <tr>
+    <td>Historia </td>
+    <td>Martes</td>
+    <td>13:10 a 14:00</td>
+  </tr>
+      
+  <tr>
+    <td>Tecnología</td>
+    <td>Miercoles</td>
+    <td>7:40 a 8:30</td>
+  </tr>
+  <tr>
+    <td>Español</td>
+    <td>Miercoles</td>
+    <td>8:30 a 9:20</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Miercoles</td>
+    <td>9:20 a 9:30</td>
+  </tr>
+  <tr>
+    <td>Matematicas</td>
+    <td>Miercoles</td>
+    <td>9:30 a 10:20</td>
+  </tr>
+  <tr>
+    <td>Fisica</td>
+    <td>Miercoles</td>
+    <td>10:20 a 11:10</td>
+  </tr>
+  <tr>
+    <td>Descanso </td>
+    <td>Miercoles</td>
+    <td>11:10 a 11:20</td>
+  </tr>
+  <tr>
+    <td>Formación Civica y Etica</td>
+    <td>Miercoles</td>
+    <td>11:20 a 12:10</td>
+  </tr>
+  <tr>
+    <td>Ingles</td>
+    <td>Miercoles</td>
+    <td>12:10 a 13:00</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Miercoles</td>
+    <td>13:00 a 13:10</td>
+  </tr>
+  <tr>
+    <td>Historia </td>
+    <td>Miercoles</td>
+    <td>13:10 a 14:00</td>
+  </tr>
+  
+  <tr>
+    <td>Tecnología Seguimiento </td>
+    <td>Jueves</td>
+    <td>7:40 a 8:30</td>
+  </tr>
+  <tr>
+    <td>Español Seguimiento </td>
+    <td>Jueves</td>
+    <td>8:30 a 9:20</td>
+  </tr>
+  <tr>
+    <td>Descanso </td>
+    <td>Jueves</td>
+    <td>9:20 a 9:30</td>
+  </tr>
+  <tr>
+    <td>Matematicas Seguimiento </td>
+    <td>Jueves</td>
+    <td>9:30 a 10:20</td>
+  </tr>
+  <tr>
+    <td>Fisica Seguimiento </td>
+    <td>Jueves</td>
+    <td>10:20 a 11:10</td>
+  </tr>
+  <tr>
+    <td>Descanso </td>
+    <td>Jueves</td>
+    <td>11:10 a 11:20</td>
+  </tr>
+  <tr>
+    <td>Formación Civica y Etica  Seguimiento </td>
+    <td>Jueves</td>
+    <td>11:20 a 12:10</td>
+  </tr>
+  <tr>
+    <td>Ingles Seguimiento </td>
+    <td>Jueves</td>
+    <td>12:10 a 13:00</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Jueves</td>
+    <td>13:00 a 13:10</td>
+  </tr>
+  <tr>
+    <td>Historia Seguimiento </td>
+    <td>Jueves</td>
+    <td>13:10 a 14:00</td>
+  </tr>
+  
+  <tr>
+    <td>Tutorias</td>
+    <td>Viernes</td>
+    <td>7:40 a 8:30</td>
+  </tr>
+  <tr>
+    <td>Educación Socioemocional  </td>
+    <td>Viernes</td>
+    <td>8:30 a 9:20</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Viernes</td>
+    <td>9:20 a 9:30</td>
+  </tr>
+  <tr>
+    <td>Literatura</td>
+    <td>Viernes</td>
+    <td>9:30 a 10:20</td>
+  </tr>
+  <tr>
+    <td>Artes</td>
+    <td>Viernes</td>
+    <td>10:20 a 11:10</td>
+  </tr>
+  <tr>
+    <td>Descanso </td>
+    <td>Viernes</td>
+    <td>11:10 a 11:20</td>
+  </tr>
+  <tr>
+    <td>Educación Física </td>
+    <td>Viernes</td>
+    <td>11:20 a 12:10</td>
+  </tr>
+  <tr>
+    <td>Vida Saludable </td>
+    <td>Viernes</td>
+    <td>12:10 a 13:00</td>
+  </tr>
+  <tr>
+    <td>Descanso</td>
+    <td>Viernes</td>
+    <td>13:00 a 13:10</td>
+  </tr>
+  <tr>
+    <td>Taller de Matematicas </td>
+    <td>Viernes</td>
+    <td>13:10 a 14:00</td>
+  </tr>
+  </tbody>
+</table>
+  
+</center>
+<script>
+  $(document).ready(function(){
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#myTable tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+</script>
+</body>
+</html>

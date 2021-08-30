@@ -1,0 +1,30 @@
+
+
+table {
+    font-family: comic Sans MS,arial,verdana;
+    border-collapse: collapse;
+    width: 50%;
+    border-radius: 25px;
+  }
+  
+  td, th {
+    border: 1px solid  #61a1f5;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:  #61a1f5;
+    color: white;
+  }
+  tr{
+    background-color:  #006eff;
+    color: white;
+  }
+
+  .a :link{
+      color: white;
+  }
+  a :active{
+      color: white;
+  }
