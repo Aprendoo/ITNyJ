@@ -2,29 +2,45 @@
 
 table {
     font-family: comic Sans MS,arial,verdana;
-    border-collapse: collapse;
+    border-collapse: collape;
     width: 50%;
     border-radius: 25px;
+    margin-top: 0px;
   }
-  
+  input{
+    border-radius: 25px;
+    height: 30px;
+    align-content: center;
+    padding: 10px;
+    border-color: rgb(177, 177, 177);
+    box-shadow: rgba(35, 53, 65, 0.8) 2px 2px 30px;
+    border: 5px rgb(30, 48, 71);
+    margin-left: 3px;
+  }
   td, th {
-    border: 1px solid  #61a1f5;
-    text-align: left;
+    border: 0px solid  #61a1f5;
+    text-align: center;
     padding: 8px;
+    box-shadow: rgba(139, 209, 255, 0.8) 2px 2px 30px;
+    border: 5px rgba(106, 165, 243, 0.733);
+    border-radius: 15px;
+    margin: 10px;
   }
   
   tr:nth-child(even) {
     background-color:  #61a1f5;
     color: white;
+    margin-left: 10px;
+    box-shadow: rgba(139, 209, 255, 0.8) 2px 2px 30px;
+    border: 5px rgba(106, 165, 243, 0.733);
+    border-radius: 15px;
+    margin: 10px;
   }
   tr{
     background-color:  #006eff;
     color: white;
+    margin: 10px;
+    
   }
 
-  .a :link{
-      color: white;
-  }
-  a :active{
-      color: white;
-  }
+
